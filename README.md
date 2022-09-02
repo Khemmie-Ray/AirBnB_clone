@@ -1,5 +1,6 @@
-##### AirBnB-clone Description
+##### AirBnB-clone
 ****
+## Description
 
 This is an ALX SE program first full web application project that will cover the fundamental concepts of higher level programming
 and also cover the integration of database storage and front-end as well as a back-end API.
