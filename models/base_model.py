@@ -1,16 +1,19 @@
 #!/usr/bin/python3
-"""Class BaseModel."""
+"""Defines the BaseModel class."""
 import models
 from uuid import uuid4
 from datetime import datetime
 
 
 class BaseModel:
-    """The BaseModel for every other class"""
+    """Represents the BaseModel of the HBnB project."""
 
-    def _init_(self, *args, **kwargs):
-        """Initialize a new BaseModel"""
-
+    def __init__(self, *args, **kwargs):
+        """Initialize a new BaseModel.
+        Args:
+            *args (any): Unused.
+            **kwargs (dict): Key/value pairs of attributes.
+        """
         tform = "%Y-%m-%dT%H:%M:%S.%f"
         self.id = str(uuid4())
         self.created_at = datetime.today()
