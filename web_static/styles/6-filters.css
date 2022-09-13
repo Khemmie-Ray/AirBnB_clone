@@ -37,6 +37,32 @@ button {
     margin-top: 0;
 }
 
-.subtitle, .title {
+.title, li,
+.subtitle {
     padding-left: 20px;
 }
+
+h2 {
+    font-size: 16px;
+}
+
+.cities {
+    width: 100%;
+}
+
+.popover {
+    padding: 10px;
+    background-color: #FAFAFA;
+    border: 1px solid #DDDDDD;
+    display: none;
+}
+
+li {
+    list-style: none;
+}
+
+.locations:hover .popover,
+.amenities:hover .popover {
+    display: block;
+}
+
