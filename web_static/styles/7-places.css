@@ -1,0 +1,19 @@
+.places-title {
+    font-size: 30px;
+    text-align: left;
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.nameOfPlace h2 {
+    border: #FF5A5F 1px solid;
+    padding: 20px;
+    margin: 20px;
+    width: 390px;
+    border-radius: 4px;
+}

@@ -1,0 +1,113 @@
+.places-title {
+    font-size: 30px;
+    text-align: left;
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.subplace {
+    text-align: center;
+}
+
+.placeBox {
+    border: #FF5A5F 1px solid;
+    padding: 20px;
+    margin: 20px;
+    width: 390px;
+    border-radius: 4px;
+}
+
+.price_by_night {
+    color:  #FF5A5F;
+    border: #FF5A5F solid 4px;
+    border-radius: 50%;
+    min-width: 60px;
+    height: 60px;
+    font-size: 30px;
+    width: 60px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+
+.home {
+    top: 42%;
+    left: 36%;
+}
+
+.information, 
+.price_by_night {
+    display: flex;
+}
+
+.information {
+    height: 80px;
+    border-top: 1px #DDDDDD solid;
+    border-bottom: 1px #DDDDDD solid;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.max_guest, 
+.number_rooms,
+.number_bathrooms {
+    width: 100px;
+    padding: 5px;
+}
+
+.max_guest p, 
+.number_rooms p,
+.number_bathrooms p {
+    margin: 0;
+    text-align: left;
+}
+
+.user p, 
+.description p,
+.reviewText {
+    text-align: justify;
+}
+
+.tiny {
+    right: 23%;
+    top: 42%;
+}
+
+.suite {
+    bottom: -58%;
+    right: 42%;
+}
+
+.amenity,
+.reviews {
+    margin-top: 40px; 
+    margin-bottom: 0;
+}
+
+.a-title {
+    font-size: 16px;
+    padding: 8px 0;
+    border-top: 1px solid #DDDDDD;
+}
+
+.userReview {
+    font-size: 14px;
+}
+
+.reviewText {
+    font-size: 12px;
+}
+
+.tIcon {
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 3px;
+}
+
+.a-icon {
+    padding-left: 0;
+}

@@ -51,14 +51,18 @@ h2 {
 }
 
 .popover {
-    padding: 10px;
+    padding: 10px 0 10px 20px;
     background-color: #FAFAFA;
     border: 1px solid #DDDDDD;
     display: none;
+    margin-top: 0;
+    width: 229px;
+    position: absolute;
 }
 
 li {
     list-style: none;
+    padding-left: 0;
 }
 
 .locations:hover .popover,

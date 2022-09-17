@@ -1,0 +1,41 @@
+.placeBox {
+    position: relative;
+}
+
+.home,
+.tiny,
+.suite {
+        top: 3%;
+        left: 65%;
+   }
+
+@media (max-width: 600px) {
+    .filters {
+        height: 100px;
+        margin: 50px auto;
+    }
+
+    .title,
+    .subtitle {
+        padding-left: 2px;
+    }
+
+    .locations,
+    .amenities {
+        width: 30%;
+    }
+
+    .nameOfPlace {
+        flex-direction: column;
+    }
+
+    .placeBox {
+        width: 300px;
+        margin: 20px auto;
+    }
+
+   .container,
+   header {
+        width: 90%;
+   }
+}
